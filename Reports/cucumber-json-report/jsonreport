@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 44,
+        "name": "Sign out from the JPet Store Web Application.",
+        "description": "",
+        "id": "jpet-website;sign-out-from-the-jpet-store-web-application.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42462345000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Launch the Chrome Browser",
+            "match": {
+              "location": "SignoutUser_JPet.launch_the_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10239458000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Open the JPet Web Application",
+            "match": {
+              "location": "SignoutUser_JPet.open_the_JPet_Web_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3981572400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click the Login button",
+            "match": {
+              "location": "SignoutUser_JPet.click_the_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 983174900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Enter the Username, Password and Click Login button",
+            "match": {
+              "location": "SignoutUser_JPet.enter_the_Username_Password_and_Click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1573970500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "If User is logged in then Click the Signout button",
+            "match": {
+              "location": "SignoutUser_JPet.if_User_is_logged_in_then_click_the_Signout_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@TC_05_Signout_User_From_JPet_Web_Application"
+          }
+        ]
+      }
+    ],
+    "name": "JPet Website",
+    "description": "",
+    "id": "jpet-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature/JPet_Project_CTS.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Jpetstore_feature"
+      }
+    ]
+  }
+]
